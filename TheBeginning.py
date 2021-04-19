@@ -10,7 +10,7 @@ import datetime
 def math_game():
     begin_time = datetime.datetime.now()
     correct_counter = 0
-    print("Welcome to my Math game! \nyou have 5 tries, try your best:)!")
+    print("Welcome to my Math game! \nyou have 5 attempts, try your best:)!")
     for i in range(5):
         print()
         num1 = random.randint(2, 15)
